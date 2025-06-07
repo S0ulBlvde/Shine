@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #D4D4D4;
+    overflow-x: hidden;
+    background: #3D3D3D;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    /* background: #3D3D3D; */
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+header {
+    padding: 22px 0;
+    
+}
+
+.header__logo {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFCC00;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #000000;
+}
+
+header nav ul li.btn a {
+    background: #D4D4D4;
+    padding: 10px 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    color: #000000;
+}
+
+header nav ul li.btn a:hover {
+    background: #000000;
+    color: #D4D4D4;
+    padding: 10px 18px;
+    border-radius: 30px;
+}
+
+/* Topbar base styles (перенесено из responsive.css) */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 40px;
+    background: #111;
+    color: #fff;
+}
+.topbar__logo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 32px;
+    color: #ffe100;
+}
+.topbar__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1;
+    margin-left: 32px;
+}
+.topbar__address, .topbar__time {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+    gap: 8px;
+}
+.topbar__phone {
+    margin-left: 32px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 6px 24px;
+    font-size: 18px;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    transition: background 0.2s, color 0.2s;
+}
+.topbar__phone a {
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+.topbar__phone:hover {
+    background: #2a2a2a;
+}
+.topbar__phone:hover a {
+    color: #fff;
+}
+.topbar__address img {
+    content: url('../img/location24.png');
+    width: 24px;
+    height: 24px;
+}
+.topbar__time img {
+    content: url('../img/clock24.png');
+    width: 24px;
+    height: 24px;
+}
+
+/* About section */
+.about {
+  text-align: center;
+  margin: 48px 0 32px 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about__title {
+  color: #FFCC00;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.about__desc {
+  color: #fff;
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #D4D4D4;
+  margin: 36px auto 36px auto;
+  width: 60%;
+}
+
+/* Price-list section */
+.price-list {
+  text-align: center;
+  margin-bottom: 32px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price-list__title {
+  color: #FFCC00;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.price-list__subtitle {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.price-list__images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.price-list__images img {
+  background: #222;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  width: 100%;
+  max-width: 320px;
+  height: 420px;
+  object-fit: cover;
+  transition: transform 0.2s;
+  cursor: pointer;
+  display: block;
+}
+.price-list__images img:hover {
+  transform: scale(1.04);
+}
+.price-list__desc {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.price-list__bg {
+    background: #232323;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    padding: 32px 32px 24px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 16px auto;
+    max-width: 1100px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0 12px 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 32px;
+}
+
+/* Online button */
+.online-btn {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background: #222;
+  color: #FFCC00;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+  z-index: 1000;
+}
+.online-btn:hover {
+  background: #FFCC00;
+  color: #222;
+}
+
+/* Popup для прайс-листов */
+.popup {
+  position: fixed;
+  z-index: 2000;
+  left: 0; top: 0; right: 0; bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup__overlay {
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+}
+
+.popup__content {
+  position: relative;
+  z-index: 2;
+  /* background: #232323; */
+  /* border-radius: 16px; */
+  /* padding: 32px 48px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+.popup__close {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 3;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #232323;
+  transition: background 0.2s, color 0.2s;
+}
+.popup__close:hover {
+  background: #fff;
+  color: #232323;
+}
+
+.popup__arrow {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 48px;
+  cursor: pointer;
+  margin: 0 24px;
+  z-index: 3;
+  transition: color 0.2s;
+}
+.popup__arrow:hover {
+  color: #FFCC00;
+}
+
+#popup-img {
+  max-width: 600px;
+  max-height: 80vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.5);
+  transition: transform 0.3s;
+  cursor: zoom-in;
+}
+#popup-img.zoomed {
+  transform: scale(2);
+  cursor: zoom-out;
+  z-index: 10;
+}
+

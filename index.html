@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Салон красоты "Сияй"</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <span class="topbar__logo logo-neon">СИЯЙ</span>
+      <div class="topbar__info">
+        <span class="topbar__time">
+          <img src="img/clock40.png" alt="Время" class="icon" />
+          ПН-ВС: 10.00 - 21.00
+        </span>
+        <span class="topbar__address">
+          <img src="img/location40.png" alt="Адрес" class="icon" />
+          ул.Архитектора Белова, 9
+        </span>
+      </div>
+      <span class="topbar__phone"><a href="tel:+79811241384">+7 (981) 124-13-84</a></span>
+    </div>
+    <div class="wrapper">
+      <main>
+        <section class="about">
+          <h2 class="about__title neon-yellow">О нас</h2>
+          <p class="about__desc">
+            Салон красоты "Сияй" — это пространство комфорта и стиля, где каждая деталь продумана для вашего уюта. Мы создаем атмосферу, в которую хочется возвращаться, предлагая услуги высокого качества, актуальные тренды и индивидуальный подход к каждому гостю.
+          </p>
+        </section>
+        <hr class="divider" />
+        <section class="price-list">
+          <h2 class="price-list__title neon-yellow">Прайс-лист</h2>
+          <div class="price-list__subtitle">(Нажмите чтобы увеличить)</div>
+          <div class="price-list__bg">
+            <div class="price-list__images">
+              <img src="img/price1.jpeg" alt="Прайс-лист 1" />
+              <img src="img/price2.jpeg" alt="Прайс-лист 2" />
+              <img src="img/price3.jpeg" alt="Прайс-лист 3" />
+            </div>
+          </div>
+          <div class="price-list__desc">Прайс на основные виды услуг, более подробную информацию можно узнать по телефону</div>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer__copyright">© 2025 Сияй — Салон красоты</div>
+    </footer>
+    <a href="#" class="online-btn">Онлайн-запись</a>
+    <!-- Popup для прайс-листов -->
+    <div id="price-popup" class="popup" style="display:none;">
+      <div class="popup__overlay"></div>
+      <div class="popup__content">
+        <span class="popup__close">&times;</span>
+        <button class="popup__arrow popup__arrow--left">&#8592;</button>
+        <img id="popup-img" src="" alt="Прайс-лист" />
+        <button class="popup__arrow popup__arrow--right">&#8594;</button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
