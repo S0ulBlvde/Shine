@@ -51,6 +51,7 @@ rightArrow.addEventListener('click', () => {
 
 // Зум по клику на изображение
 popupImg.addEventListener('click', function(e) {
+  if (window.innerWidth <= 700) return; // Отключаем зум на мобилках
   e.stopPropagation();
   if (!this.classList.contains('zoomed')) {
     // Координаты курсора относительно изображения
