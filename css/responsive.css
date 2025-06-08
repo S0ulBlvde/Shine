@@ -154,3 +154,44 @@
     height: 20px;
   }
 }
+
+@media (max-width: 558px) {
+  .topbar {
+    padding: 10px 6px;
+  }
+  .topbar__logo {
+    font-size: 26px;
+    margin-right: 10px;
+  }
+  .topbar__info {
+    gap: 4px;
+    margin-left: 10px;
+  }
+  .topbar__address, .topbar__time {
+    font-size: 13px;
+    gap: 4px;
+  }
+  .topbar__phone {
+    margin-left: auto;
+    margin-right: 6px;
+    padding: 4px 12px;
+    font-size: 13px;
+    height: 26px;
+  }
+  .topbar__phone a {
+    font-size: 13px;
+  }
+  .topbar__address img,
+  .topbar__time img {
+    width: 16px;
+    height: 16px;
+  }
+  .online-btn {
+    width: 90px;
+    height: 90px;
+    font-size: 16px;
+    padding: 0;
+    right: 10px;
+    bottom: 10px;
+  }
+}
