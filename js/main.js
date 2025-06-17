@@ -1,5 +1,4 @@
 // main.js
-
 const priceImages = [
   'img/price1.jpeg',
   'img/price2.jpeg',
