@@ -83,13 +83,10 @@ if (priceListArrow && priceListImages) {
     }
   });
 }
-
 // Функция для проверки мобильного устройства
 function isMobileDevice() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
-
-
 // Добавляем обработчик для кнопки телефона
 const phoneLink = document.querySelector('.topbar__phone a');
 if (phoneLink) {
