@@ -82,4 +82,20 @@ if (priceListArrow && priceListImages) {
       priceListImages.scrollBy({ left: cardWidth + 24, behavior: 'smooth' });
     }
   });
+}
+
+// Функция для проверки мобильного устройства
+function isMobileDevice() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Добавляем обработчик для кнопки телефона
+const phoneLink = document.querySelector('.topbar__phone a');
+if (phoneLink) {
+  phoneLink.addEventListener('click', function(e) {
+    if (!isMobileDevice()) {
+      e.preventDefault();
+      alert('Эта функция доступна только для мобильных устройств');
+    }
+  });
 } 
