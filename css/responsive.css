@@ -248,6 +248,21 @@
   }
 }
 
+@media (max-width: 490px) {
+  #popup-img {
+    max-height: 65vh;
+  }
+}
+@media (max-width: 400px) {
+  #popup-img {
+    max-height: 57vh;
+  }
+  .popup__close {
+    top: 8px;
+    font-size: 40px;
+    right: 40px;
+}
+
 @media (max-width: 320px) {
   .topbar__logo {
     font-size: 15px;
