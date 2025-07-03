@@ -325,18 +325,27 @@
 }
 
 
+@media (max-width: 835px) {
+  .manicure__img {
+    width:  325px;
+    height: 325px;
+  }
+}
+
 @media (max-width: 680px) {
   .haircolor__photos {
     gap: 15px;
   }
   .haircolor__img {
-    height: 400px;
+    height: 270px;
+    width: 270px;
   }
   .manicure__photos {
     gap: 15px;
   }
   .manicure__img {
-    height: 400px;
+    height: 270px;
+    width: 270px;
   }
 }
 
@@ -384,9 +393,10 @@
 
 @media (max-width: 320px) {
   .haircolor__img {
-    height: 220px;
+    height: 180px;
   }
   .manicure__img {
-    height: 220px;
+    height: 190px;
+    width: 190px;
   }
 }

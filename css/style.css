@@ -406,9 +406,9 @@ header nav ul li.btn a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  padding-left: 12px;
+  padding-right: 12px;
   gap: 32px;
-  flex-wrap: wrap;
 }
 .haircolor__img {
   width: auto;
@@ -427,7 +427,7 @@ header nav ul li.btn a:hover {
 .manicure {
   text-align: center;
   margin: 48px 0 32px 0;
-  max-width: 1100px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -438,16 +438,17 @@ header nav ul li.btn a:hover {
   margin-bottom: 18px;
 }
 .manicure__photos {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
-  align-items: flex-start;
+  padding-left: 12px;
+  padding-right: 12px;
   gap: 32px;
-  flex-wrap: wrap;
+  justify-items: center;
 }
 .manicure__img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.18);
   background: #232323;
