@@ -289,23 +289,5 @@
     width: 10px;
     height: 10px;
   }
-  .lamination__img {
-    max-height: 10vh;
-  }
-}
-
-@media (max-width: 600px) {
-  .lamination__photos {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  .lamination__img {
-    width: auto;
-    max-width: 90vw;
-    max-height: 40vh;
-    margin: 0 auto;
-    display: block;
-  }
 }
 
