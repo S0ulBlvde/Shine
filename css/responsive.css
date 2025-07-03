@@ -347,6 +347,13 @@
     height: 270px;
     width: 270px;
   }
+  .haircut__photos {
+    gap: 15px;
+  }
+  .haircut__img {
+    height: 270px;
+    width: 270px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -362,6 +369,20 @@
   .manicure__img {
     height: 270px;
   }
+  .haircut__photos {
+    gap: 15px;
+  }
+  .haircut__img {
+    height: 240px;
+    width: 195px;
+  }
+}
+
+@media (max-width: 405px) {
+  .haircut__img {
+    height: 235px;
+    width: 180px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -370,6 +391,9 @@
   }
   .manicure__img {
     height: 250px;
+  }
+  .haircut__img {
+    width: 160px;
   }
 }
 
@@ -380,6 +404,10 @@
   .manicure__img {
     height: 240px;
   }
+  .haircut__img {
+    height: 190px;
+    width: 158px;
+  }
 }
 
 @media (max-width: 325px) {
@@ -387,7 +415,11 @@
     height: 230px;
   }
   .manicure__img {
-    height: 230px;
+    height: 210px;
+  }
+  .haircut__img {
+    height: 170px;
+    width: 145px;
   }
 }
 
@@ -398,5 +430,9 @@
   .manicure__img {
     height: 190px;
     width: 190px;
+  }
+  .haircut__img {
+    height: 175px;
+    width: 145px;
   }
 }
