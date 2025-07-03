@@ -273,7 +273,6 @@
   }
 }
 
-
 @media (max-width: 490px) {
   #popup-img {
     max-height: 65vh;
@@ -325,3 +324,69 @@
   }
 }
 
+
+@media (max-width: 680px) {
+  .haircolor__photos {
+    gap: 15px;
+  }
+  .haircolor__img {
+    height: 400px;
+  }
+  .manicure__photos {
+    gap: 15px;
+  }
+  .manicure__img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 425px) {
+  .haircolor__photos {
+    gap: 15px;
+  }
+  .haircolor__img {
+    height: 270px;
+  }
+  .manicure__photos {
+    gap: 15px;
+  }
+  .manicure__img {
+    height: 270px;
+  }
+}
+
+@media (max-width: 375px) {
+  .haircolor__img {
+    height: 250px;
+  }
+  .manicure__img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 355px) {
+  .haircolor__img {
+    height: 240px;
+  }
+  .manicure__img {
+    height: 240px;
+  }
+}
+
+@media (max-width: 325px) {
+  .haircolor__img {
+    height: 230px;
+  }
+  .manicure__img {
+    height: 230px;
+  }
+}
+
+@media (max-width: 320px) {
+  .haircolor__img {
+    height: 220px;
+  }
+  .manicure__img {
+    height: 220px;
+  }
+}
