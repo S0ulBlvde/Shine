@@ -115,8 +115,8 @@ header nav ul li.btn a:hover {
 .topbar__phone {
     margin-left: 32px;
     background: #fff;
-    border-radius: 20px;
-    padding: 6px 24px;
+    border-radius: 26px;
+    padding: 26px 24px;
     font-size: 18px;
     color: #111;
     display: flex;

@@ -140,7 +140,7 @@
   .topbar__phone {
     margin-left: auto;
     margin-right: 8px;
-    padding: 5px 16px;
+    padding: 26px 15px;
     font-size: 15px;
   }
   .topbar__phone a {
@@ -193,6 +193,15 @@
   }
   .topbar__logo img {
     height: 48px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .lamination__photos {
+    gap: 15px;
+  }
+  .lamination__img {
+    max-height: 23vh;
   }
 }
 
@@ -252,6 +261,15 @@
   }
   .lamination__img {
     max-height: 21vh;
+  }
+}
+
+@media (max-width: 355px) {
+  .lamination__photos {
+    gap: 15px;
+  }
+  .lamination__img {
+    max-height: 19vh;
   }
 }
 
