@@ -353,3 +353,50 @@ header nav ul li.btn a:hover {
   z-index: 10;
 }
 
+.lamination {
+  text-align: center;
+  margin: 48px 0 32px 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeInUp 1s;
+}
+.lamination__title {
+  color: #FFCC00;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s 0.1s forwards;
+}
+.lamination__photos {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.lamination__img {
+  width: auto;
+  height: auto;
+  max-height: 60vh;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  background: #232323;
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInPhoto 1s 0.5s forwards;
+  transition: transform 0.3s;
+}
+.lamination__img:hover {
+  transform: scale(1.04);
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInPhoto {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
