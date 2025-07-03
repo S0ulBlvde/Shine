@@ -379,7 +379,7 @@ header nav ul li.btn a:hover {
 .lamination__img {
   width: auto;
   height: auto;
-  max-height: 2vh;
+  max-height: 40vh;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.18);
   background: #232323;

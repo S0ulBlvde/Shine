@@ -246,6 +246,16 @@
   }
 }
 
+@media (max-width: 375px) {
+  .lamination__photos {
+    gap: 15px;
+  }
+  .lamination__img {
+    max-height: 21vh;
+  }
+}
+
+
 @media (max-width: 490px) {
   #popup-img {
     max-height: 65vh;
@@ -288,6 +298,12 @@
   .topbar__time img {
     width: 10px;
     height: 10px;
+  }
+  .lamination__photos {
+    gap: 15px;
+  }
+  .lamination__img {
+    max-height: 18vh;
   }
 }
 
